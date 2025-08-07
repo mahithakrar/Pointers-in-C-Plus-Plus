@@ -1,0 +1,25 @@
+//NAME:MAHI THAKRAR
+//PRN:24070123056
+//A3
+
+#include <iostream>
+using namespace std;
+
+int main() {
+   char str[100];
+   char *sptr=str;
+   cout<<"Enter the string:"<<endl;
+   cin>>str;
+   cout<<"The string is:";
+   while(*sptr!= '\0'){
+       cout<<*sptr;
+       sptr++;
+   }
+   
+    return 0;
+}
+
+//Output:
+//Enter the string:
+//Hello World
+The string is:Hello
