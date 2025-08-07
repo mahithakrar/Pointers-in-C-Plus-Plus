@@ -1,0 +1,22 @@
+//NAME:MAHI THAKRAR
+//PRN:24070123056
+//A3
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5]={10,20,30,40,50};
+    int* p1=&arr[2];
+    int* p2=&arr[4];
+    int diff=(*p2)-(*p1);
+    cout<<"The difference between the two pointers is:"<<diff<<endl;
+    int add=(*p2)+(*p1);
+    cout<<"The addition of the two pointers is:"<<add<<endl;
+    
+    return 0;
+}
+
+//Output:
+//The difference between the two pointers is:20
+//The addition of the two pointers is:80
