@@ -1,0 +1,25 @@
+//NAME:MAHI THAKRAR
+//PRN:24070123056
+//A3
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a=20;
+    int *aptr;
+    aptr=&a;
+    cout<<a<<endl;
+    cout<<aptr<<endl;
+    cout<<*aptr<<endl;
+    cout<<&a<<endl;
+
+    return 0;
+}
+
+//Output:
+//20
+//0x7ffe1e6e7684
+//20
+//0x7ffe1e6e7684
+0x7ffe1e6e7684
