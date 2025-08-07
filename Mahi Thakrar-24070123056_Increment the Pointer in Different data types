@@ -1,0 +1,63 @@
+//NAME:MAHI THAKRAR
+//PRN:24070123056
+//A3
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a=20;
+    float b=3.18;
+    double c=5.98756;
+    string s="Hello World";
+    
+    int *aptr;
+    aptr=&a;
+    cout<<a<<endl;
+    cout<<"The original address of the type int is:"<<aptr<<endl;
+    aptr++;
+    cout<<"The new address of the type int is:"<<aptr<<endl;
+    
+    float *bptr;
+    bptr=&b;
+    cout<<b<<endl;
+    cout<<"The original address of the type float is:"<<bptr<<endl;
+    bptr++;
+    cout<<"The new address of the type float is:"<<bptr<<endl;
+    
+    double *cptr;
+    cptr=&c;
+    cout<<c<<endl;
+    cout<<"The original address of the type double is:"<<cptr<<endl;
+    cptr++;
+    cout<<"The new address of the type double is:"<<cptr<<endl;
+    
+    string *sptr;
+    sptr=&s;
+    cout<<s<<endl;
+    cout<<"The original address of the type string is:"<<sptr<<endl;
+    sptr++;
+    cout<<"The new address of the type string is:"<<sptr<<endl;
+
+    return 0;
+}
+
+
+
+
+
+
+//Output:
+//20
+//The original address of the type int is:0x7ffcf28b6fe0
+//The new address of the type int is:0x7ffcf28b6fe4
+//3.18
+//The original address of the type float is:0x7ffcf28b6fdc
+//The new address of the type float is:0x7ffcf28b6fe0
+//5.98756
+//The original address of the type double is:0x7ffcf28b6fd0
+//The new address of the type double is:0x7ffcf28b6fd8
+//Hello World
+//The original address of the type string is:0x7ffcf28b6fb0
+//The new address of the type string is:0x7ffcf28b6fd0
+}
