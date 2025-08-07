@@ -60,4 +60,3 @@ int main() {
 //Hello World
 //The original address of the type string is:0x7ffcf28b6fb0
 //The new address of the type string is:0x7ffcf28b6fd0
-}
