@@ -1,0 +1,22 @@
+//NAME:MAHI THAKRAR
+//PRN:24070123056
+//A3
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int arr[5]={10,20,30,40,50};
+    for(int i=4;i>=0;i--){
+        cout<<arr[i]<<endl;
+    }
+    
+    return 0;
+}
+
+//Output:
+//50
+//40
+//30
+//20
+//10
