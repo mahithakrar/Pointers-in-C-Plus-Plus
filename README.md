@@ -4,7 +4,7 @@
 //PRN:24070123056
 //ENTC A3
 
-## 📝 Overview
+## Overview
 Pointers in C++ are variables that store the **memory address** of another variable.  
 They provide a powerful way to directly access and manipulate memory, making them essential for **dynamic memory allocation**, **efficient data handling**, and **low-level programming**.
 In C++, pointers are widely used in:
@@ -20,7 +20,7 @@ In C++, pointers are widely used in:
 A pointer is a special variable that stores the memory address of another variable.  
 If `x` is a variable, then a pointer to `x` will store the address where `x` is located in memory.
 
-### 🏗️ Syntax for Declaration
+###Syntax for Declaration
 ```cpp
 data_type* pointer_name;
 ```
