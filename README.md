@@ -23,7 +23,7 @@ If `x` is a variable, then a pointer to `x` will store the address where `x` is 
 ### 🏗️ Syntax for Declaration
 ```cpp
 data_type* pointer_name;
-
+```
 **Accessing and Dereferencing
 Address-of operator (&): Retrieves the memory address of a variable.
 Dereference operator (*): Accesses the value at the address stored in the pointer.
@@ -159,5 +159,4 @@ Pointers in C++ are a core concept for low-level memory access, efficient data h
 They can make programs faster and more flexible, but also more error-prone if misused.
 A strong understanding of pointers is essential for advanced programming topics such as data structures, system programming, and memory optimization.
 
-```cpp
-data_type* pointer_name;
+
