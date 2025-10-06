@@ -45,9 +45,6 @@ int main() {
 
 
 
-
-
-
 //Output:
 //20
 //The original address of the type int is:0x7ffcf28b6fe0
