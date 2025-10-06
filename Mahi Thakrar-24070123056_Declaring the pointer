@@ -1,6 +1,7 @@
 //NAME:MAHI THAKRAR
 //PRN:24070123056
-//A3
+//ENTC A3
+//EXPERIMENT-9
 
 #include <iostream>
 using namespace std;
